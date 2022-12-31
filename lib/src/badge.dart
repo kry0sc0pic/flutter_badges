@@ -25,7 +25,7 @@ class Badge extends StatefulWidget {
     this.elevation = 2,
     this.toAnimate = true,
     this.position,
-    this.halo = SizedBox(),
+    this.halo,
     this.shape = BadgeShape.circle,
     this.padding = const EdgeInsets.all(5.0),
     this.animationDuration = const Duration(milliseconds: 500),
